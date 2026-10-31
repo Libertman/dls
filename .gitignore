@@ -1,0 +1,37 @@
+# Игнорируем каталоги сборки
+build/
+dist/
+
+# Игнорируем логи
+*.log
+
+# Временные файлы редакторов
+*.swp
+*.swo
+
+# Скрытые файлы (начинающиеся с точки)
+.DS_Store
+Thumbs.db
+
+# Файлы конфигурации
+.env
+.env.local
+
+# Папки IDE
+.idea/
+.vscode/
+
+# Виртуальные окружения и кэши
+.venv/
+.env
+*.py[cod]
+__pycache__/
+.yarn/cache
+.yarn/*
+
+# Исключения для Yarn (чтобы не игнорировать патчи и плагины)
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
